@@ -30,43 +30,43 @@
 #endif
 
 // Limit switches
-#define X_MIN_PIN			65
-#define Y_MIN_PIN			64
-#define Z_MIN_PIN			63
+#define X_MIN_PIN			62
+#define Y_MIN_PIN			61
+#define Z_MIN_PIN			60
 
 // Z Probe (when not Z_MIN_PIN)
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN	63
+  #define Z_MIN_PROBE_PIN	60
 #endif
 
 // Steppers
-#define X_STEP_PIN			7
-#define X_DIR_PIN			6
-#define X_ENABLE_PIN		5
+#define X_STEP_PIN			28
+#define X_DIR_PIN			26
+#define X_ENABLE_PIN		7
 
-#define Y_STEP_PIN			4
-#define Y_DIR_PIN			3
-#define Y_ENABLE_PIN		2
+#define Y_STEP_PIN			6
+#define Y_DIR_PIN			5
+#define Y_ENABLE_PIN		4
 
-#define Z_STEP_PIN			16
-#define Z_DIR_PIN			14
-#define Z_ENABLE_PIN		15
+#define Z_STEP_PIN			3
+#define Z_DIR_PIN			2
+#define Z_ENABLE_PIN		14
 
-#define Z2_STEP_PIN			17
-#define Z2_DIR_PIN			18
-#define Z2_ENABLE_PIN		19
+#define Z2_STEP_PIN			15
+#define Z2_DIR_PIN			16
+#define Z2_ENABLE_PIN		17
 
-#define E0_STEP_PIN			68
-#define E0_DIR_PIN			67
-#define E0_ENABLE_PIN		66
+#define E0_STEP_PIN			18
+#define E0_DIR_PIN			19
+#define E0_ENABLE_PIN		24
 
 // Temperature sensors
-#define TEMP_BED_PIN		3		//Analog input
-#define TEMP_0_PIN			2		//Analog input
+#define TEMP_BED_PIN		0		//Analog input
+#define TEMP_0_PIN			1		//Analog input
 
 // Heaters
-#define HEATER_BED_PIN		69
-#define HEATER_0_PIN		29
+#define HEATER_BED_PIN		34
+#define HEATER_0_PIN		30
 
 // Misc. Functions
 //
