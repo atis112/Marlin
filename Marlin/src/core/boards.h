@@ -224,6 +224,8 @@
 #define BOARD_ARCHIM1          1591   // UltiMachine Archim1 (with DRV8825 drivers)
 #define BOARD_ARCHIM2          1592   // UltiMachine Archim2 (with TMC2130 drivers)
 #define BOARD_ALLIGATOR        1602   // Alligator Board R2
+#define BOARD_MONYAK		   1603   // My Arduino Due based board
+
 
 //
 // SAM3X8C ARM Cortex M3

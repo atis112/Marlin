@@ -399,6 +399,8 @@
   #include "pins_ADSK.h"              // SAM3X8E                                    env:DUE env:DUE_debug
 #elif MB(PRINTRBOARD_G2)
   #include "pins_PRINTRBOARD_G2.h"    // SAM3X8C                                    env:DUE_USB
+ #elif MB(MONYAK)
+  #include "pins_MONYAK.h"			  // SAM3X8E									env:DUE env:DUE_USB env:DUE_debug
 
 //
 // STM32 ARM Cortex-M3
