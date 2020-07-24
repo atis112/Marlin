@@ -1,6 +1,6 @@
 /**
  * Marlin 3D Printer Firmware
- * Copyright (c) 2019 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+ * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
  * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
@@ -39,7 +39,7 @@
 
 /**
  * mostly from Microsoft document fatgen103.doc
- * http://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx
+ * https://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx
  */
 
 uint8_t const BOOTSIG0 = 0x55,          // Value for byte 510 of boot block or MBR
